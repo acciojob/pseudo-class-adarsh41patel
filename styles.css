@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+#container {
+  margin: 20px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+#container::before {
+  content: "★ Special Text Before ★ ";
+  color: #f00;
+  font-size: 20px;
+}
+
+#container::after {
+  content: " ★ Special Text After ★";
+  color: #f00;
+  font-size: 20px;
+}
